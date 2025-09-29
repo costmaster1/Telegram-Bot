@@ -12,4 +12,4 @@ user = Router()
 @user.message(CommandStart())
 async def cmd_start(message: Message):
     await set_user(message.from_user.id)
-    await message.answer('Добро пожаловать в бот c интеграцией ИИ !!!...')
+    await message.answer('Добро пожаловать в бот c интеграцией ИИ !!!... я умею все....')
